@@ -11,7 +11,9 @@ As a reminder, you have an appointment with Dr. Smith tomorrow at 3:30 pm. If yo
 
 The message should be sent in two chunks as such:
 * As a reminder, you have an appointment with Dr. Smith tomorrow at 3:30 pm. If you are unable to make this appointment, please call our customer service  (1/2)
+
 and
+
 * line at least 1 hour before your scheduled appointment time. (2/2)
 
 Your task is to develop a function that takes in a string message and returns an array of string messages with pagination if needed. For this exercise, the maximum number of characters in the input message is 1440. Also, do not break words into syllables and hyphens.
